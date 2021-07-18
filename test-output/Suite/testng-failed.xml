@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test for Demo(failed)">
+    <classes>
+      <class name="GSTProject.GSTPROJECT.ExecuteTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- GSTProject.GSTPROJECT.ExecuteTest -->
+    </classes>
+  </test> <!-- Test for Demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
