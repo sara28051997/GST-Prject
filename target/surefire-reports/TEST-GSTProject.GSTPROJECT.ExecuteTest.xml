@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="GSTProject.GSTPROJECT.ExecuteTest" time="24.432" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="GSTProject.GSTPROJECT.ExecuteTest" time="141.237" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Sarath Nithyananthan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3799863738971301342.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Sarath Nithyananthan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8262775827084568959.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;&quot;C:\Program Files\Git\cmd;C:\Users\Sarath Nithyananthan\AppData\Local\Programs\Python\Python37-32&quot;;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Sarath Nithyananthan\Downloads\sdk-tools-windows-4333796\platform-tools;C:\Users\Sarath Nithyananthan\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\Sarath Nithyananthan\Documents\Eclipse_robot\SeleniumjavaFramework\Driver\Chromedriver\chromedriver.exe;C:\Users\Sarath Nithyananthan\PycharmProjects\selenium\venv\Lib;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Apache\apache-maven-3.6.3-bin\bin;C:\Program Files\Git\cmd;C:\Users\Sarath Nithyananthan\Downloads\libs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Sarath Nithyananthan\Anaconda3;C:\Users\Sarath Nithyananthan\Anaconda3\Library\mingw-w64\bin;C:\Users\Sarath Nithyananthan\Anaconda3\Library\usr\bin;C:\Users\Sarath Nithyananthan\Anaconda3\Library\bin;C:\Users\Sarath Nithyananthan\Anaconda3\Scripts;C:\Users\Sarath Nithyananthan\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Sarath Nithyananthan\AppData\Local\Programs\Python\Python37-32\;C:\Users\Sarath Nithyananthan\AppData\Local\Microsoft\WindowsApps;C:\Users\Sarath Nithyananthan\AppData\Roaming\Composer\vendor\bin;C:\Users\Sarath Nithyananthan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sarath Nithyananthan\AppData\Roaming\npm;;C:\Users\Sarath Nithyananthan\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,116 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="GSTProject.GSTPROJECT.ExecuteTest" name="testLogin" time="24.432"/>
+  <testcase classname="GSTProject.GSTPROJECT.ExecuteTest" name="testLogin" time="141.237">
+    <failure message="invalid element state
+  (Session info: chrome=91.0.4472.114)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-15MQ1MA&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SARATH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 916814971e549c201b9c471de2473428" type="org.openqa.selenium.InvalidElementStateException">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=91.0.4472.114)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-15MQ1MA&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SARATH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 916814971e549c201b9c471de2473428
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at GSTProject.GSTPROJECT.UIOperation.perform(UIOperation.java:87)
+	at GSTProject.GSTPROJECT.ExecuteTest.testLogin(ExecuteTest.java:59)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1175e2db
+New Testcase-&gt;Login in Application Started
+GOTOURL----not required----not required----url
+
+ADVCLICK----project----xpath----not required
+
+New Testcase-&gt;GST option Started
+CLICK----GST----xpath----not required
+
+CLICK----Options----xpath----not required
+
+New Testcase-&gt;Invoice option Started
+ADVCLICK----invoice----xpath----not required
+
+CLICK----knowmore----xpath----not required
+
+New Testcase-&gt;Next button Started
+CLICK----Next----xpath----not required
+
+New Testcase-&gt;Stats option Started
+CLICK----Stats----xpath----not required
+
+New Testcase-&gt;LinkedIN option Started
+CLICK----linkedin----xpath----not required
+
+WINDOW----not required----not required----not required
+
+CLICK----video----xpath----not required
+
+WINDOW----not required----not required----not required
+
+New Testcase-&gt;Login option Started
+CLICK----login----xpath----not required
+
+New Testcase-&gt;Media option Started
+ADVCLICK----media----xpath----not required
+
+CLICK----event----xpath----not required
+
+New Testcase-&gt;Partner option Started
+ADVCLICK----partner----xpath----not required
+
+ADVCLICK----vendors----xpath----not required
+
+CLICK----tendors----xpath----not required
+
+ADVCLICK----partner----xpath----not required
+
+ADVCLICK----vendors----xpath----not required
+
+CLICK----register----xpath----not required
+
+New Testcase-&gt;Inputting text Started
+SETTEXT----organisation----xpath----ABC Private Limited
+
+SETTEXT----url----xpath----www.ABC.com
+
+SETTEXT----gstid----xpath----12345.0
+
+SETTEXT----turnover----xpath----500000.0
+
+CLICK----profit----xpath----not required
+
+CLICK----alert----xpath----not required
+
+CLICK----blacklist----xpath----not required
+
+CLICK----alert----xpath----not required
+
+CLICK----dropdown----xpath----not required
+
+JCLICK----select----xpath----not required
+
+true
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 27366
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 18, 2021 12:34:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
 </testsuite>
