@@ -87,7 +87,7 @@ public class UIOperation {
     	  driver.findElement(getObject(p,objectName,objectType)).clear();
     	  break;
       case "SCROLL":
-    	  js.executeScript("window.scrollBy(0,500)");
+    	  js.executeScript("window.scrollBy(0,800)");
     	  Thread.sleep(5000);
     	  break;
       case "SETTEXT":
