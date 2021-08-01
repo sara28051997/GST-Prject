@@ -4,6 +4,7 @@
   <test name="Test for Demo">
     <classes>
       <class name="GSTProject.GSTPROJECT.ExecuteTest"/>
+	  <class name="GSTProject.GSTPROJECT.ExecuteTest1"/>
     </classes>
   </test>
 </suite>
